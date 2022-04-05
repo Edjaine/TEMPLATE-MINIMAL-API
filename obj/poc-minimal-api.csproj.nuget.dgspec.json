@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edjai\\source\\repos\\poc-minimal-api\\poc-minimal-api\\poc-minimal-api.csproj": {}
+    "C:\\Users\\edjai\\Documents\\TEMPLATE-MINIMAL-API\\poc-minimal-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edjai\\source\\repos\\poc-minimal-api\\poc-minimal-api\\poc-minimal-api.csproj": {
+    "C:\\Users\\edjai\\Documents\\TEMPLATE-MINIMAL-API\\poc-minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edjai\\source\\repos\\poc-minimal-api\\poc-minimal-api\\poc-minimal-api.csproj",
+        "projectUniqueName": "C:\\Users\\edjai\\Documents\\TEMPLATE-MINIMAL-API\\poc-minimal-api.csproj",
         "projectName": "poc-minimal-api",
-        "projectPath": "C:\\Users\\edjai\\source\\repos\\poc-minimal-api\\poc-minimal-api\\poc-minimal-api.csproj",
+        "projectPath": "C:\\Users\\edjai\\Documents\\TEMPLATE-MINIMAL-API\\poc-minimal-api.csproj",
         "packagesPath": "C:\\Users\\edjai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edjai\\source\\repos\\poc-minimal-api\\poc-minimal-api\\obj\\",
+        "outputPath": "C:\\Users\\edjai\\Documents\\TEMPLATE-MINIMAL-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edjai\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[6.0.3, )"
             },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.14.0, )"
@@ -62,9 +66,21 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "opentelemetry": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "opentelemetry.exporter.console": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [
