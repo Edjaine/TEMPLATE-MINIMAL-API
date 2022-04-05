@@ -7,3 +7,4 @@ Template padrão para rápida implementação de uma minimal API usando .NET 6
 - Entity Framework
 - Minivalidator
 - NetDevPack
+- OpenTelemetry
